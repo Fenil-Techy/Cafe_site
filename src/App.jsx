@@ -12,8 +12,12 @@ const App=()=>{
   const router=createBrowserRouter([
     {
       path:"/",
-      element:<Home/>,
+      element:<MainLayout/>,
       children:[
+        {
+          path:"/",
+          element:<Home/>
+        },
         {
           path:"/menu",
           element:<Menu/>
@@ -36,7 +40,7 @@ const App=()=>{
 
   return(
     <RouterProvider router={router}>
-      <MainLayout/>
+      {Children}
     </RouterProvider>
   )
 }

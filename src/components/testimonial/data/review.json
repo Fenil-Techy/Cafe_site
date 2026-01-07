@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Hitesh Mishra",
+    "review": "The food was just as good as the ambience. Loved the food and the bungalow cafe; it was a very good experience.",
+    "img": "/testimonial/boy.png"
+  },
+  {
+    "id": 2,
+    "name": "Pinaz Pirani",
+    "review": "The place has got a really nice vibe and the service is quite quick. The music being played is nice and slow also the food is delectable. We did try coffee that was pretty strong and a must try item. We had spaghetti red sauce pasta which was lipsmacking and we had nachos. Quantity for both the things was pretty good. Ambience wise also it good to go for a pleasant evening. Though a few items can be added to the menu for making it more varied.",
+    "img": "/testimonial/girl.png"
+  },
+  {
+    "id": 3,
+    "name": "Ved Patel",
+    "review": "To start with this place has the best ambiance of all the cafe's l have visited in Surat. Even the brews here are excellent. However, the coffee is not very strong but it works. Coming to the snacks, the pesto spaghetti tastes yum and I would recommend everyone to try it. If you are planning to go to a cafe, I would strongly recommend all to try it out.",
+    "img": "/testimonial/boy.png"
+  },
+  {
+    "id": 4,
+    "name": "Pavan Gandhi",
+    "review": "Good taste, good memories on valentine. We have gone on this place on valentine and they did all setup and arrangements like musical singers and other things. This place is good but due to heavy trafiic sometimes need to wait in queue. Staff is good and timely supportive to deliver order.",
+    "img": "/testimonial/boy.png"
+  },
+  {
+    "id": 5,
+    "name": "Panchal Gandhi",
+    "review": "Go and try this ymmy testy dishes. So if you are having one troubled evening and want to heal your evening, this could be your first time drug and it'd become your permanent one. The place is beautiful, calm and one of the best in the town. The songs playing were the one I had heard most of them. The Indie music. I had most of them in my playlist that says the music taste. And it wasn't loud like any other cafe. Make it a date. Even if you are alone or you have someone to come with. Open terrace cafe. Very lively place. You can bring you kids too for some games so they can enjoy. Food taste great. Nice ambiance. Nice place for hang out with friends. Recommended place for photoshoot.",
+    "img": "/testimonial/boy.png"
+  },
+  {
+    "id": 6,
+    "name": "Dhruvi Modi",
+    "review": "This place is the perfect blend of food, music and coffee. The cold brew is the must try. The service was really nice. Even the staff was super polite and friendly. If you are looking to try something new then I guess this is the place for you.",
+    "img": "/testimonial/boy.png"
+  }
+]

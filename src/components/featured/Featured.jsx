@@ -9,7 +9,7 @@ export const Featured = () => {
                 <h1 className="text-primary font-semibold">Get In Touch. Treat Yourself</h1>
                 <h1 className="font-bold font-heading text-2xl">BEST FOOD. BEST LIFE!</h1>
             </div>
-            <div className="mt-5 flex w-full">
+            <div className="mt-5 flex flex-col w-full">
                 <ul className="grid grid-cols-1 gap-7 font-semibold py-4">
 
                     <li className="flex items-center gap-4 text-xl">
@@ -33,6 +33,11 @@ export const Featured = () => {
                     </li>
 
                 </ul>
+                <div className="relative min-h-screen mt-10 py-10">
+                    <div className=" absolute translate-y-1/2 left-2 shadow-2xl bg-white p-2"><img src="./featured/image1.webp" alt="" className="w-45" /></div>
+                    <div className="absolute right-5 bottom-15 shadow-2xl bg-white p-2"><img src="./featured/image2.webp" alt="" className="w-40" /></div>
+                    <div className="absolute top-0 -z-10 shadow-2xl right-10 bg-white p-2"><img src="./featured/image3.webp" alt="" className="w-40" /></div>
+                </div>
             </div>
 
         </section>

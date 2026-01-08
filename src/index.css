@@ -15,9 +15,11 @@
     .font-heading {
         font-family: var(--font-heading);
     }
+
 }
 @layer components{
     .text-primary {
         color: var(--color-primary);
     }
 }
+

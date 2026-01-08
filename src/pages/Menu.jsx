@@ -1,7 +1,9 @@
 export const Menu=()=>{
     return(
         <div>
-            <h1>Menu</h1>
+            <div>
+                <h1 className="text-primary text-3xl">Menu</h1>
+            </div>
         </div>
     )
 }

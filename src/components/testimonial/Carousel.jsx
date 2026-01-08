@@ -8,7 +8,7 @@ import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 import reviewData from "./data/review.json"
 export const Carousel = () => {
   return (
-    <div className="relative w-full max-w-85 "> 
+    <div className="relative w-full max-w-90 overflow-hidden "> 
       <Swiper
         modules={[Navigation, Pagination]}
         navigation={{
@@ -21,9 +21,9 @@ export const Carousel = () => {
         }}
         autoHeight={true}
         loop={true}
-        spaceBetween={20}
+        spaceBetween={30}
         slidesPerView={1}
-        className="mySwiper p-2! overflow-hidden "
+        className="mySwiper px-5! "
       >
         {reviewData.map((user) => (
           <SwiperSlide key={user.id} >

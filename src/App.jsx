@@ -6,6 +6,8 @@ import { Gallery } from "./pages/Gallery";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
 import { MainLayout } from "./layout/MainLayout";
+import { OrderNow } from "./pages/OrderNow";
+import { CartProvider } from "./shared/context/CartContext";
 
 const App=()=>{
 
@@ -33,15 +35,21 @@ const App=()=>{
         {
           path:"/contact",
           element:<Contact/>
+        },
+        {
+          path:"/ordernow",
+          element:<OrderNow/>
         }
       ]
     }
   ])
 
   return(
+    <CartProvider>
     <RouterProvider router={router}>
       {Children}
     </RouterProvider>
+    </CartProvider>
   )
 }
 export default App;

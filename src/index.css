@@ -16,6 +16,10 @@
         font-family: var(--font-heading);
     }
 
+    /* *{
+        outline:2px solid red;
+    } */
+
 }
 @layer components{
     .text-primary {

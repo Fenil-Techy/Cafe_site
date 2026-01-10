@@ -2,7 +2,7 @@ import { Carousel } from "./Carousel"
 
 export const Testimonial=()=>{
     return (
-        <section className=" p-4">
+        <section className=" p-4 mt-10">
             <div>
                 <p className="text-primary font-semibold">Testimonial</p>
                 <h1 className="text-2xl font-heading font-bold">What People Says <br />About Us?</h1>

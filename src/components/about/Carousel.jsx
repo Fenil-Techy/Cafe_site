@@ -13,7 +13,7 @@ export default function Carousel() {
   ];
 
   return (
-    <div className="w-full h-full">
+    <div className="w-[90%] md:max-w-3xl lg:max-w-4xl mx-auto overflow-hidden">
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"
@@ -25,15 +25,18 @@ export default function Carousel() {
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }}
-        className="w-full h-full"
+        className="w-full rounded-4xl"
       >
         {images.map((item) => (
           <SwiperSlide key={item.id}>
-            <img
-              src={item.img}
-              alt=""
-              className="w-full h-full  object-cover rounded-4xl "
-            />
+        
+            <div className="aspect-square md:aspect-video w-full overflow-hidden rounded-4xl">
+               <img
+                src={item.img}
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

@@ -1,13 +1,9 @@
 export const Map=()=>{
     return (
-         <div className="relative py-4">
+         <div className="relative py-4 sm:mt-2">
       <div
-        style={{
-            position: "relative",
-            paddingBottom: "75%",
-          height: 0,
-          overflow: "hidden",
-        }}
+        className="relative w-full h-100 overflow:hidden"
+        
       >
         <iframe
           title="Bunglow Cafe Location"

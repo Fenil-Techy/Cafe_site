@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -8,12 +8,17 @@ import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 import reviewData from "./data/review.json"
 export const Carousel = () => {
   return (
-    <div className="relative w-full max-w-90 overflow-hidden "> 
+    <div className="relative w-full mx-auto max-w-90 sm:max-w-md sm:mt-5 md:max-w-200 xl:max-w-300 overflow-hidden "> 
       <Swiper
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination,Autoplay]}
         navigation={{
           nextEl: ".button-nextt",
           prevEl: ".button-prev",
+        }}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false, 
+          pauseOnMouseEnter: true, 
         }}
         pagination={{ 
           clickable: true,
@@ -23,7 +28,19 @@ export const Carousel = () => {
         loop={true}
         spaceBetween={30}
         slidesPerView={1}
-        className="mySwiper px-5! "
+        breakpoints={{
+          // When window width is >= 768px (md)
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+            
+          },
+          1280: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        }}
+        className="mySwiper px-5! md:px-6! "
       >
         {reviewData.map((user) => (
           <SwiperSlide key={user.id} >

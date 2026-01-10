@@ -1,7 +1,7 @@
 export const Gallery=()=>{
     return(
         <div className="p-4">
-            <div className="flex flex-col justify-center items-center gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center py-10 gap-10">
                 <img src="/gallery/interior1.webp" alt="image of bungalow cafe" className="w-70 h-full rounded-4xl shadow-[2px_10px_30px_rgba(0,0,0,0.3)]" />
                 <img src="/gallery/food1.webp" alt="image of bungalow cafe" className="w-70 h-full rounded-4xl shadow-[2px_10px_30px_rgba(0,0,0,0.3)]"/>
                 <img src="/gallery/interior2.webp" alt="image of bungalow cafe" className="w-70 h-full rounded-4xl shadow-[2px_10px_30px_rgba(0,0,0,0.3)]"/>

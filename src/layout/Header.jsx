@@ -21,10 +21,11 @@ export const Header = () => {
     }, [isOpen]);
 
     return (
-        <nav className="sticky top-0 z-50 flex justify-between items-center px-2 py-1 md:px-4 md:py-1 xl:px-6 xl:py-0 bg-primary border">
+        <nav className="sticky top-0 z-50 flex justify-between items-center px-2 py-3 md:px-4 md:py-2 lg:py-3 xl:px-6  bg-primary border">
 
             <div className="pl-3">
-                <img src="/navbar/logo.webp" alt="Logo" className="w-12 md:w-15 xl:w-18 xl:h-18 h-full" />
+                {/* <img src="/navbar/logo.webp" alt="Logo" className="w-12 md:w-15 xl:w-18 xl:h-18 h-full" /> */}
+                <h1 className="text-white text-lg lg:text-xl">Cafe logo</h1>
             </div>
             <div className="hidden md:flex">
                 <ul className="flex justify-center items-center md:gap-5 xl:gap-10 md:text-lg text-white cursor-pointer">

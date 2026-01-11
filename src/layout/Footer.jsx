@@ -10,21 +10,22 @@ export const Footer=()=>{
                 </div>
                 <div className="flex flex-col items-center lg:items-start">
                     <h1 className="font-semibold text-lg pb-2 text-left w-25 lg:text-xl">Contact</h1>
-                    <p className="text-sm text-gray-300">+91 9727421004</p>
+                    <p className="text-sm text-gray-300">+91 1234567890</p>
                 </div>
                 <div>
                     <h1 className="font-semibold text-lg pb-2 lg:text-xl">Address</h1>
-                    <p className="text-sm text-gray-300">Third Floor, Aagam Vivianna, C-302, opp. Florencce Apt, Vesu, Surat, Gujarat 395007, India</p>
+                    <p className="text-sm text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat facere assumenda sequi officia corporis vero fuga, sapiente quam praesentium placeat.</p>
                 </div>
                 <div className="flex flex-col justify-center items-center lg:-mt-5">
                     <div>
-                        <img src="/navbar/logo.webp" alt="logo" className="w-25 xl:w-30 h-full" />
+                        {/* <img src="/navbar/logo.webp" alt="logo" className="w-25 xl:w-30 h-full" /> */}
+                        <h1 className="lg:text-2xl">Cafe logo </h1>
                     </div>
                     <div className="flex gap-3">
-                        <a href="https://www.instagram.com/thebungalowcafe_surat?igsh=bGpjemhzbzJ0bDlj">
+                        <a href="https://www.instagram.com/">
                         <FaInstagram className="text-2xl text-gray-300"/>
                         </a>
-                        <a href="https://wa.me/9727421004">
+                        <a href="https://wa.me/9016931056">
                         <FaWhatsapp className="text-2xl  text-gray-300" />
                         </a>
                     </div>

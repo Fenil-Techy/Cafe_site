@@ -85,7 +85,7 @@ export const Hero = () => {
       {/* Content - Exactly as you had it */}
       <div className="relative z-10 flex gap-5 lg:gap-8 xl:gap-10 flex-col h-full items-center justify-center text-white">
         <h1 className="text-5xl md:text-6xl text-center font-heading font-semibold lg:leading-18 xl:text-7xl xl:leading-20">
-          The<br />Bungalow<br />Cafe
+          Your<br />Cafe<br />Name
         </h1>
         <h1 className="font-light text-sm italic lg:text-base">Food. Comfort. Community.</h1>
         <div className="flex gap-2 mt-4 font-light lg:gap-5">

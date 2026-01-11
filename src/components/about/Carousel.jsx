@@ -6,10 +6,10 @@ import "swiper/css/effect-fade";
 
 export default function Carousel() {
   const images = [
-    { id: 1, img: "/gallery/interior4.webp" },
-    { id: 2, img: "/gallery/interior5.webp" },
-    { id: 3, img: "/gallery/interior6.webp" },
-    { id: 4, img: "/gallery/interior9.webp" },
+    { id: 1, img: "/hero/hero5.webp" },
+    { id: 2, img: "/hero/hero4.webp" },
+    { id: 3, img: "/hero/hero2.webp" },
+    { id: 4, img: "/hero/hero3.webp" },
   ];
 
   return (

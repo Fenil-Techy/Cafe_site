@@ -16,7 +16,7 @@ export const CartSummary = ({ onClose }) => {
     const cafeOpen = isCafeOpen()
     const orderOnWhatsApp = () => {
 
-        const phone = "919016931056";
+        const phone = "919727421004";
 
         let message = "*Thank You for Ordering at the Bungalow Cafe*%0A%0A";
         message += `*Name:* ${customerName}%0A%0A`;

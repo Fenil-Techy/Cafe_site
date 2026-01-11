@@ -11,36 +11,36 @@ export const Hero = () => {
   const bgImages = [
 
     {
-      desktop:"/hero/hero.webp",
+      desktop:"/hero/hero5.webp",
       mobile:"/gallery/interior1.webp"
     },
     {
-      desktop:"/hero/hero3.webp",
-      mobile:"/gallery/interior7.webp"
+      desktop:"/hero/hero2.webp",
+      mobile:"/gallery/mobile.webp"
     },
     {
 
-      desktop:"/hero/hero4.webp",
+      desktop:"/hero/hero3.webp",
       mobile:"/gallery/interior8.webp"
     },
     {
 
-      desktop:"/gallery/interior4.webp",
+      desktop:"/hero/hero4.webp",
       mobile:"/gallery/interior10.webp"
     },
     {
 
-      desktop:"/gallery/interior5.webp",
+      desktop:"/hero/hero1.webp",
       mobile:"/gallery/interior11.webp"
     },
     {
 
-      desktop:"/hero/hero2.webp", 
+      desktop:"/hero/hero6.webp", 
       mobile:"/gallery/interior12.webp"
     },
     {
 
-      desktop:"/gallery/interior6.webp",
+      desktop:"/hero/hero7.webp",
       mobile:"/gallery/interior13.webp"
     },
 

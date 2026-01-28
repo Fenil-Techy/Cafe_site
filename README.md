@@ -1,16 +1,68 @@
-# React + Vite
+# Cafe Website ☕  
+**Live & Fully Functional Frontend Web Application**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, visually appealing, and fully responsive cafe website designed to enhance customer engagement and streamline online ordering. The platform provides complete cafe information along with interactive features such as reviews, menu browsing, cart functionality, and direct online ordering.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## React Compiler
+- 🎨 **Modern & Elegant UI**  
+  Beautifully designed interface focused on branding, usability, and customer experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📖 **Interactive Menu**  
+  Browse detailed food and beverage menus with pricing and descriptions.
 
-## Expanding the ESLint configuration
+- 🛒 **Online Order & Cart Functionality**  
+  Add items to cart, manage quantities, and place orders seamlessly via WhatsApp.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⭐ **Customer Reviews Section**  
+  Displays customer feedback to build trust and improve credibility.
+
+- 🖼️ **Image Gallery**  
+  Showcases high-quality images of the cafe, food, and ambience.
+
+- 📍 **Google Maps Integration**  
+  Embedded map for easy navigation and real-time location access.
+
+- 📱 **Fully Responsive Design**  
+  Optimized for desktop, tablet, and mobile devices.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js / HTML, CSS, JavaScript  
+- **Styling:** Tailwind CSS  
+- **Maps:** Google Maps API  
+- **Ordering:** WhatsApp Click-to-Chat Integration  
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Live Website:** https://thebunglowcafe.vercel.app/
+
+---
+
+## ✅ Project Status
+
+- ✔️ Completed and deployed  
+- ✔️ Fully functional and live  
+- ✔️ Open for future feature enhancements  
+
+---
+
+## 🎯 Objective
+
+To build a real-world cafe website that combines aesthetic design with practical functionality, enabling customers to explore the menu, view reviews, and place orders effortlessly.
+
+---
+
+## 📬 Contact
+
+For feedback, collaboration, or inquiries, feel free to reach out.
+
+---
+
+⭐ If you like this project, don’t forget to star the repository!
